@@ -122,12 +122,14 @@
         .icon-link {
             display: inline-block; 
             padding: 5px 3px 3px 10px;
-            width: 28px;
+            width: 27px;
             height: 31px;
             border: 1px solid #263238;
             box-shadow: 0px 2px 4px 0px #00000040;
-            border-radius: 50%; 
+            border-radius: 50%;
             text-decoration: none;
+            display: inline-block;
+    
             }
             .icon-link i {
             font-size: 24px; 
@@ -510,16 +512,17 @@
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
+   
 }
 
 .small-cards{
     display: flex;
-    
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #F0F0F0;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 5px 0px;
+    align-items: center; 
 }
 
 .card-number{
@@ -527,6 +530,8 @@
     width: 66px;
     flex-shrink: 0;
     padding: 10px;
+
+   
 }
 
 .card-number h1{
@@ -1124,13 +1129,14 @@
 }
 
 .wish-to-card{
-    margin: 20px;
-    padding: 20px 0px 0px 50px;
+    margin: 20px 20px 20px 40px;
+    padding: 20px 30px 20px 30px;
     border-radius: 15px;
     background: #0090FA;
+    width: 259px;
     justify-content: center;
-  text-align: left;
-  align-items: center;
+    text-align: left;
+    align-items: center;
 }
 .wish-to-card select{
     margin: 10px 0px;
