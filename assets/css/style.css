@@ -1368,3 +1368,10 @@
 
 
  /*  footer ends  */
+
+
+ @media (min-width: 1441px) {
+   body{
+    padding: 0px 10%;
+  }
+}
