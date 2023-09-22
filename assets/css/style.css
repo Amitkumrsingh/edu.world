@@ -526,7 +526,6 @@
 }
 
 .card-number{
-    background: #D5FC44;
     width: 66px;
     flex-shrink: 0;
     padding: 10px;
@@ -811,7 +810,7 @@
 
 .top-exams{
     padding: 20px 60px 20px 80px;
-    margin-left: -10px;
+    margin-left: 0px;
      border-radius: 10px;
     border: 1px solid #F0F0F0;
     background: #B822FF;
@@ -1007,7 +1006,7 @@
      padding: 20px 30px;
      border-radius: 15px;
     background: #D5FC44;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 
 .discounts-text h1{
