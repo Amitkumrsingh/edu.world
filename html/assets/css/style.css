@@ -3,8 +3,8 @@
             margin: 0;
             padding: 0;
         }
-        
-        
+
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -26,7 +26,7 @@
             left: 29px;
             right:10px
         }
-        
+
         .logo-sep{
             width: 31px;
             top: 17px;
@@ -57,7 +57,7 @@
 
         .navbar-categories li {
             font-family: Inter;
-            
+
             font-size: 16px;
             font-weight: 500;
             line-height: 19px;
@@ -120,7 +120,7 @@
             font-size: 18px;
         }
         .icon-link {
-            display: inline-block; 
+            display: inline-block;
             padding: 5px 3px 3px 10px;
             width: 27px;
             height: 31px;
@@ -129,10 +129,10 @@
             border-radius: 50%;
             text-decoration: none;
             display: inline-block;
-    
+
             }
             .icon-link i {
-            font-size: 24px; 
+            font-size: 24px;
             color:  #263238;
             }
 
@@ -163,17 +163,17 @@
         }
 
 
-  
+
 
 /* landing starts */
 
 .landing-text{
    margin: 13% 0% 0% 24%;
    z-index: 100000;
-  
+
 }
 .landing-text h1{
-    
+
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -316,10 +316,10 @@
 .scrollable-container {
     display: flex;
     overflow: hidden;
-   
+
 }
 .scrollable-container:hover .dream-college-card {
-    transform: translateX(-314px); 
+    transform: translateX(-314px);
 }
 
 
@@ -333,7 +333,7 @@
     height: 163px;
     flex-shrink: 0;
     margin: 20px;
-    transform: translateX(0); 
+    transform: translateX(0);
     transition: transform 0.3s ease;
     padding: 20px 0px 0px 20px;
 }
@@ -374,7 +374,7 @@
 .imp-updates{
     display: flex;
     flex-direction: row;
-    margin: 0; 
+    margin: 0;
     flex-shrink: 0;
     padding: 50px;
     border-radius: 10px;
@@ -385,10 +385,10 @@
 .imp-updates-scrollable-container {
     display: flex;
     overflow: hidden;
-   
+
 }
 .imp-updates-scrollable-container:hover .imp-updates-cards {
-    transform: translateX(-314px); 
+    transform: translateX(-314px);
 }
 
 .imp-updates-text{
@@ -417,7 +417,7 @@
     border-radius: 10px;
     border: 2px solid #F0F0F0;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
-    transform: translateX(0); 
+    transform: translateX(0);
     transition: transform 0.3s ease;
     padding: 20px 0px 0px 20px;
 }
@@ -475,7 +475,7 @@
 
 .top-colleges{
     padding:100px 60px;
-    
+
 }
 
 .top-colleges-sort{
@@ -496,7 +496,7 @@
 
 .top-colleges-select{
     gap: 20px;
-   
+
 }
 
 .top-colleges-select select{
@@ -514,7 +514,7 @@
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
-   
+
 }
 
 .small-cards{
@@ -524,7 +524,7 @@
     border: 1px solid #F0F0F0;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 5px 0px;
-    align-items: center; 
+    align-items: center;
 }
 
 .card-number{
@@ -532,7 +532,7 @@
     flex-shrink: 0;
     padding: 10px;
 
-   
+
 }
 
 .card-number h1{
@@ -546,7 +546,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .iit-img{
@@ -564,7 +564,7 @@
 
 .iit-name{
      padding: 20px 10px 20px 20px;
-     
+
 }
 .iit-name h2{
     color: #263238;
@@ -605,7 +605,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   
+
 }
 
 
@@ -652,7 +652,7 @@
         line-height: normal;
     }
 
-    
+
 
     .apply{
         display: flex;
@@ -736,7 +736,7 @@
 .steps-towards{
     display: flex;
     padding: 100px 60px;
-    
+
 }
 
 
@@ -750,7 +750,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.steps-towards-card h1{ 
+.steps-towards-card h1{
     color: #FFF;
     font-family: Inter;
     font-size: 30px;
@@ -853,28 +853,28 @@
 .top-exams-scrollable-container {
     display: flex;
     overflow: hidden;
-   
+
 }
 .top-exams-scrollable-container:hover .top-exams-cards {
-    transform: translateX(-414px); 
+    transform: translateX(-414px);
 }
 
     .top-exams-cards{
         display: flex;
         padding: 30px 60px;
-          transform: translateX(0); 
+          transform: translateX(0);
     transition: transform 0.3s ease;
-        
+
     }
 .top-exam-card{
-    min-width:290px; 
+    min-width:290px;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
         border: 1px solid #F0F0F0;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
-      
-    
+
+
 }
 .exam-domain{
     padding: 0px 10px 10px 10px;
@@ -911,7 +911,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
-   
+
 }
 
 .exam-with-icon i{
@@ -972,7 +972,7 @@
 .wish-to-study-btn{
     display:flex;
     flex-direction: column;
-    
+
 }
 
 .wish-to-study-btn button{
@@ -1045,16 +1045,16 @@
     .discounts-scrollable-container {
     display: flex;
     overflow: hidden;
-   
+
 }
 .discounts-scrollable-container:hover .discounts-cards {
-    transform: translateX(-414px); 
+    transform: translateX(-414px);
 }
 
 
     .discounts-cards{
         display: flex;
-         transform: translateX(0); 
+         transform: translateX(0);
     transition: transform 0.3s ease;
     }
 
@@ -1158,22 +1158,22 @@
     font-weight: 900;
     line-height: 50px; /* 125% */
     letter-spacing: -0.8px;
-    
+
     text-decoration-line: underline;
 
 }
 .study-abroad-scrollable-container {
     display: flex;
     overflow: hidden;
-   
+
 }
 .study-abroad-scrollable-container:hover .study-abroad-cards {
-    transform: translateX(-314px); 
+    transform: translateX(-314px);
 }
 
 .study-abroad-cards{
     display: flex;
-     transform: translateX(0); 
+     transform: translateX(0);
     transition: transform 0.3s ease;
 }
 .study-abroad-card{
@@ -1279,17 +1279,17 @@
 
 .first-block{
     border-right:1px solid #fff ;
-    margin:0px 30px;    
+    margin:0px 30px;
 }
 
 .second-block{
     border-right:1px solid #fff ;
-    margin:0px 30px;    
+    margin:0px 30px;
 }
 
 .third-block{
     border-right:1px solid #fff ;
-    margin:0px 30px;    
+    margin:0px 30px;
 }
 
 .first-block h1{
@@ -1377,7 +1377,7 @@
   }
    .landing-text{
    margin: 13% 0% 0% 23%;
-  
+
 }
 }
 
@@ -1387,7 +1387,7 @@
   }
    .landing-text{
    margin: 14% 0% 0% 24%;
-  
+
 }
 }
 
@@ -1409,7 +1409,7 @@
         .navbar-categories{
             min-width: fit-content;
         }
-        
+
 
         .navbar-categories li {
             font-size: 14px;
@@ -1442,11 +1442,11 @@
             padding: 4px 2px 0px 8px;
             width: 24px;
             height: 28px;
-           
+
             }
             .icon-link i {
-            font-size: 20px; 
-            
+            font-size: 20px;
+
             }
 
         .navbar-login {
@@ -1459,7 +1459,7 @@
 
 .landing-text{
    margin: 15% 0% 0% 30%;
-  
+
 }
 .landing-text h1{
     font-size: 55px;
@@ -1498,15 +1498,16 @@
     font-size: 45px;
     line-height: 50px; /* 163.636% */
     text-align: left;
-    
+
 }
 
 .success-stories p{
     text-align: left;
     font-size: 20px;
-    
+
 }
 
 /* landing ends */
-   
+
 }
+
