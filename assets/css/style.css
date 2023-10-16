@@ -2643,3 +2643,166 @@ ul.breadcrumb li a:hover {
             line-height: 15px; /* 150% */
         }
 
+
+
+        /* coaching page */
+
+        .courses-fee-cards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .courses-fee-card{
+            border-radius: 10px;
+            border: 1px solid rgba(38, 50, 56, 0.50);
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .courses-fee-card h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: -0.28px;
+            margin-bottom: 10px;
+        }
+
+        .courses-fee-card p{
+            color: #263238;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px; /* 150% */
+            margin-bottom: 10px;
+        }
+        .courses-fee-card button{
+            border-radius: 5px;
+            background: #D5FC44;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: -0.28px;
+            border: none;
+            padding: 5px;
+        }
+
+        .result-cards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .result-card{
+            display:flex;
+            flex-direction: column;
+            border-radius: 10px;
+            border: 1px solid rgba(38, 50, 56, 0.50);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .toppers-result{
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .toppers-name h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 20px; /* 428.571% */
+            letter-spacing: -0.28px;
+        }
+
+
+        .toppers-name p{
+            color: #263238;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px; /* 150% */
+        }
+        .toppers-rank button{
+            width: 100%;
+            margin: 5px 0px;
+            height: 27px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #D5FC44;
+            border: none;
+        }
+        #video{
+            overflow: hidden;
+        }
+        .videos-cards{
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .video-card{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            border-radius: 5px;
+            border: 0.5px solid #263238;
+        }
+
+        .video-card h1 {
+            padding: 5px;
+            color: #263238;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 15px; /* 150% */
+
+        }
+
+        .video-card p{
+            padding: 2px 5px;
+            color: #000;
+            font-family: Inter;
+            font-size: 8px;
+            font-style: italic;
+            font-weight: 300;
+            line-height: 10px; /* 125% */
+        }
+
+        .branches p{
+            color: #263238;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px; /* 178.571% */
+
+        }
+        .branches-buttons{
+             text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .branches button{
+            width: 159px;
+            height: 30px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: 1px solid #263238;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+            margin: 50px 20px 10px 0px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
