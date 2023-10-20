@@ -2806,3 +2806,233 @@ ul.breadcrumb li a:hover {
             justify-content: center;
             align-items: center;
         }
+
+
+
+
+        /* Individual exam Lisiting */
+
+        .jee-mains-exam{
+            display: flex;
+        }
+
+        .jee-mains-logo img{
+            padding: 0px 10px 10px 10px;
+        }
+
+        .jee-mains-details{
+            padding: 10px;
+        }
+
+        .important-news-dates{
+            display: flex;
+
+        }
+
+
+        .important-dates table tr td{
+            padding: 10px !important;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px !important; /* 214.286% */
+        }
+        .imp-downloads{
+            padding: 40px 20px;
+            margin: 10px 10px 10px 30px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 158px;
+
+            border-radius: 5px;
+            border: 1px solid #B822FF;
+        }
+
+        .imp-downloads ul{
+            width: 137px;
+
+            flex-shrink: 0;
+        }
+
+        .imp-downloads ul li{
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-bottom: 30px;
+        }
+
+        .exam-pattern {
+            padding: 10px;
+        }
+
+
+       .exam-pattern th {
+            border-bottom: 1px solid #00000080;
+            padding: 20px;
+            text-align: left;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        .question-papers-ans-cards{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .question-papers-ans-card{
+            border-radius: 10px;
+            border: 1px solid rgba(38, 50, 56, 0.50);
+            padding: 10px 30px 10px 10px;
+            margin: 10px;
+        }
+        .question-papers-ans-card h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 30px; /* 428.571% */
+            letter-spacing: -0.28px;
+        }
+         .question-papers-ans-card p{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: -0.28px;
+         }
+         .download-btns{
+            display: flex;
+            margin-top: 20px;
+            gap: 10px;
+         }
+
+         .view-btn{
+            padding-top: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 27px;
+            border-radius: 5px;
+            border: 1px solid #263238;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+            flex-shrink: 0;
+        }
+        .download-paper{
+            padding-top: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 27px;
+            border-radius: 5px;
+            border: 1px solid #263238;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+            background: #263238;
+            flex-shrink: 0;
+        }
+
+
+        .recommended-books{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .best-books{
+            display: flex;
+            flex-direction: column;
+        }
+        .best-books-text h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 600;
+            line-height: 10px; /* 428.571% */
+            letter-spacing: -0.28px;
+        }
+
+        .best-books-cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin:10px 0px ;
+        }
+
+        .best-books-card{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            border: 1px solid rgba(38, 50, 56, 0.50);
+            margin: 10px 20px 10px 0px;
+            padding: 10px;
+
+        }
+        .best-books-card h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 20px; /* 428.571% */
+            letter-spacing: -0.28px;
+        }
+
+        .best-books-card p{
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px; /* 208.333% */
+
+        }
+
+        .best-mocks{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0px;
+        }
+
+        .best-mocks-text h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 600;
+            line-height: 60px; /* 428.571% */
+            letter-spacing: -0.28px;
+        }
+
+        .best-mocks-content{
+            margin-left: 20px;
+        }
+
+        .best-mocks-content ul li{
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px; /* 208.333% */
+
+        }
+        .best-mocks-content ul li a{
+            color: #000;
+            text-decoration-line: underline;
+        }
