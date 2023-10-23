@@ -266,6 +266,7 @@
     height: 25px;
     flex-shrink: 0;
     color: rgba(38, 50, 56, 0.50);
+    background-color: #FFF;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
