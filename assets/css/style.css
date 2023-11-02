@@ -36,6 +36,8 @@
             color: #000;
             border: 1px solid #263238;
         }
+
+
         .navbar-categories img{
             width: 24px;
             height: 24px;
@@ -162,6 +164,111 @@
 
         }
 
+    /* Styles for the dropdown */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 1000000;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        column-count: 4;
+        column-gap: 20px;
+        padding: 20px;
+        width: 950px;
+        height: 317px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+      
+      .dropdown-content div {
+        break-inside: avoid;
+      }
+      
+      .dropdown-content h1 {
+        font-size: 18px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 5px 0;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+      
+        /* Dropdown button */
+        .dropbtn{
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+        }
+
+
+/* Styles for the link and the menu */
+    .dropdown-link {
+        position: relative;
+        margin-right: 291px;
+        width: 291px;
+        height: 31px;
+        /* flex-shrink: 0; */
+        background: rgba(213, 252, 68, 0.20);
+      }
+  
+      .menu {
+        display: none;
+        /* position: absolute; */
+        /* top: 0; */
+        /* left: 100%; */
+        /* background-color: #f9f9f9; */
+        min-width: 400px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        z-index: 10000000;
+        display: flex;
+        /* padding: 10px; */
+        width: 659px;
+        height: 317px;
+        flex-shrink: 0;
+        border-radius: 0px 10px 10px 0px;
+        background: rgba(213, 252, 68, 0.20);  
+        background: #D5FC4433; 
+      }
+      
+      .menu-column {
+        flex: 1;
+        padding: 0 10px;
+      }
+  
+      .menu h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .menu a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .menu a:hover {
+        background-color: #f1f1f1;
+      }
 
 
 
