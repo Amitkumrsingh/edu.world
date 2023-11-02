@@ -180,10 +180,8 @@
         z-index: 1;
         column-count: 4;
         column-gap: 20px;
-        padding: 20px;
-        width: 950px;
+        min-width: 291px;
         height: 317px;
-        flex-shrink: 0;
         border-radius: 10px;
         border: 1px solid #F0F0F0;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
@@ -192,14 +190,10 @@
       .dropdown-content div {
         break-inside: avoid;
       }
-      
-      .dropdown-content h1 {
-        font-size: 18px;
-      }
-      
+            
       .dropdown-content a {
         color: black;
-        padding: 5px 0;
+        /* padding: 5px 0; */
         text-decoration: none;
         display: block;
       }
@@ -208,42 +202,33 @@
         background-color: #f1f1f1;
       }
       
-        /* Dropdown button */
-        .dropbtn{
-            background: none;
-            color: inherit;
-            border: none;
-            padding: 0;
-            font: inherit;
-            cursor: pointer;
-            outline: inherit;
-        }
+    /* Dropdown button */
+    .dropbtn{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
 
 
 /* Styles for the link and the menu */
-    .dropdown-link {
-        position: relative;
-        margin-right: 291px;
+    /* .dropdown-link a{
         width: 291px;
         height: 31px;
-        /* flex-shrink: 0; */
-        background: rgba(213, 252, 68, 0.20);
-      }
+      } */
   
       .menu {
+        border: 1px solid red;
         display: none;
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 100%; */
-        /* background-color: #f9f9f9; */
         min-width: 400px;
-        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
         z-index: 10000000;
         display: flex;
-        /* padding: 10px; */
         width: 659px;
         height: 317px;
-        flex-shrink: 0;
+        /* flex-shrink: 0; */
         border-radius: 0px 10px 10px 0px;
         background: rgba(213, 252, 68, 0.20);  
         background: #D5FC4433; 
@@ -391,6 +376,7 @@
     border-radius: 15px;
     background: #B822FF;
 }
+
 .success-stories h1{
     color: #FFF;
     text-align: center;
