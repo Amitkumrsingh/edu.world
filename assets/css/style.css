@@ -1732,11 +1732,11 @@ letter-spacing: -0.72px;
             letter-spacing: -1.5px;
         }
 
-        /* .landing-page-form {
+        .landing-page-form {
             min-height: 200px;
             min-width: 200px;
-            margin: 60% 80% 0 0;
-        } */
+            /* margin: 60% 80% 0 0; */
+        }
 
         .landing-page-form select{
             min-width:150px;
@@ -1749,8 +1749,6 @@ letter-spacing: -0.72px;
             margin: 13px 30px;
             padding: 3px 7px;
         }
-
-
 
         /* .success-stories{
             margin: 30% 0 0 20%;
