@@ -332,17 +332,28 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+    padding: 0 5% 0 5%;
 }
 
+/* .landing-page-form-resent-searches{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    border: 1px solid red;
+} */
+
+
 .landing-page-form{
-    margin: 120px 120px 0px 0px;
-    height: 269px;
+    min-height: 269px;
+    min-width: 293px;
     border-radius: 15px;
     background: #0090FA;
-    width: 293px;
-    padding: 40px 40px 0px 40px;
     display:flex ;
     flex-direction: column;
+    padding: 20px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 30% 30% 0 0;
 }
 
 .landing-page-form select{
@@ -386,13 +397,19 @@
 }
 
 .recent-searches{
-    position: absolute; 
-    right: 12%;
-    top: 83%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+}
+
+.searches {
+    display: flex;
+    column-gap: 5px;
+}
+
+.searches-item{
+    flex-grow: 1;
 }
 
 .recent-search h1{
@@ -405,7 +422,7 @@
 }
 
 .searches button{
-    width: 107px;
+    /* width: 107px; */
     height: 25px;
     flex-shrink: 0;
     color: rgba(38, 50, 56, 0.50);
@@ -1609,7 +1626,7 @@ letter-spacing: -0.72px;
 }
 }
 
- @media (max-width: 1280px) {
+ @media (max-width: 1281px) {
  .college-coaching-main-grid{
         display: flex;
         gap: 10px !important;;
@@ -1642,11 +1659,6 @@ letter-spacing: -0.72px;
             line-height: 15px;
         }
 
-        /* .recent-searches{
-            position: absolute;
-            right: 5%;
-            top:70%;
-        } */
 
         .navbar-search {
             margin: 0 10px;
@@ -1686,6 +1698,7 @@ letter-spacing: -0.72px;
             padding: 7px 15px;
             line-height: 15px;
         }
+
         .panel {
         width: 841px;
         }
@@ -1697,68 +1710,57 @@ letter-spacing: -0.72px;
             margin: 10px !important;
         }
 
+        /* landing starts */
+        .landing-text{
+            margin: 15% 0% 0% 30%;
+        }
 
-/* landing starts */
+        .landing-text h1{
+            font-size: 55px;
+            line-height: 60px; /* 94.737% */
+            font-weight: 900;
+            letter-spacing: -1.5px;
+        }
 
-.landing-text{
-   margin: 15% 0% 0% 30%;
+        .landing-page-form {
+            min-height: 200px;
+            min-width: 200px;
+            margin: 60% 80% 0 0;
+        }
 
-}
-.landing-text h1{
-    font-size: 55px;
-    line-height: 60px; /* 94.737% */
-    font-weight: 900;
-    letter-spacing: -1.5px;
-}
-
-.landing-page-form{
-    margin: 8% 12% 0px 0px;
-    /* height: 200px;
-    width: 260px; */
-    padding: 20px;
-    width: 293px;
-    height: 269px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.landing-page-form select{
-    min-width:150px;
-    padding: 7px;
-    margin: 7px;
-}
+        .landing-page-form select{
+            min-width:150px;
+            padding: 7px;
+            margin: 7px;
+        }
 
 
-.landing-page-form button{
-    margin: 13px 30px;
-    padding: 3px 7px;
-}
+        .landing-page-form button{
+            margin: 13px 30px;
+            padding: 3px 7px;
+        }
 
 
 
-.success-stories{
-    width: 170px;
-    margin: -40vh 0px 230px 200px;
-    padding: 20px 20px 20px 50px;
-}
-.success-stories h1{
-    font-size: 45px;
-    line-height: 50px; /* 163.636% */
-    text-align: left;
+        .success-stories{
+            width: 170px;
+            margin: -60vh 0px 230px 300px;
+            padding: 20px 20px 20px 50px;
+        }
+        .success-stories h1{
+            font-size: 45px;
+            line-height: 50px; /* 163.636% */
+            text-align: left;
 
-}
+        }
 
-.success-stories p{
-    text-align: left;
-    font-size: 20px;
+        .success-stories p{
+            text-align: left;
+            font-size: 20px;
 
-}
+        }
 
-/* landing ends */
-
-
-
+        /* landing ends */
 }
 
 
@@ -1818,7 +1820,7 @@ ul.breadcrumb li a:hover {
 
 
 .coaching-exam p{
-     padding: 8px;
+    padding: 8px;
     color: #263238;
     text-align: center;
     font-family: Inter;
