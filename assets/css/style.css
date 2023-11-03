@@ -308,11 +308,11 @@
 
 /* landing starts */
 
-.landing-text{
-   margin: 13% 0% 0% 24%;
-   z-index: 100000;
+    .landing-text{
+        z-index: 100000;
+        margin: auto 0 ;
+    }
 
-}
 .landing-text h1{
     color: #000;
     text-align: center;
@@ -328,11 +328,13 @@
 .landing-page{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-image: url('https://img.freepik.com/premium-photo/bloodhounddog_830154-297.jpg?w=2000');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    padding: 0 5% 0 5%;
+    padding: 0 10%;
+    border: 1px solid red;
 }
 
 /* .landing-page-form-resent-searches{
@@ -353,7 +355,7 @@
     padding: 20px;
     flex-shrink: 0;
     justify-content: center;
-    margin: 30% 30% 0 0;
+    /* margin: 30% 30% 0 0; */
 }
 
 .landing-page-form select{
@@ -437,7 +439,8 @@
 
 .success-stories{
     width: 268px;
-    margin: -45vh 0px 200px 200px;
+    height: fit-content;
+    /* margin: -45vh 0px 200px 200px; */
     padding: 30px;
     border-radius: 15px;
     background: #B822FF;
@@ -1605,10 +1608,10 @@ letter-spacing: -0.72px;
    body{
     padding: 0px  3%;
   }
-   .landing-text{
-   margin: 13% 0% 0% 23%;
+   /* .landing-text{
+        margin: 13% 0% 0% 23%;
+    } */
 
-}
 .panel {
         width: 1047px;
 }
@@ -1618,9 +1621,11 @@ letter-spacing: -0.72px;
    body{
     padding: 0px 10%;
   }
-   .landing-text{
-   margin: 14% 0% 0% 24%;
-}
+
+   /* .landing-text{
+        margin: 14% 0% 0% 24%;
+    } */
+
 .panel {
         width: 1047px;
 }
@@ -1711,9 +1716,10 @@ letter-spacing: -0.72px;
         }
 
         /* landing starts */
-        .landing-text{
+
+        /* .landing-text{
             margin: 15% 0% 0% 30%;
-        }
+        } */
 
         .landing-text h1{
             font-size: 55px;
@@ -1722,11 +1728,11 @@ letter-spacing: -0.72px;
             letter-spacing: -1.5px;
         }
 
-        .landing-page-form {
+        /* .landing-page-form {
             min-height: 200px;
             min-width: 200px;
             margin: 60% 80% 0 0;
-        }
+        } */
 
         .landing-page-form select{
             min-width:150px;
@@ -1742,11 +1748,12 @@ letter-spacing: -0.72px;
 
 
 
-        .success-stories{
+        /* .success-stories{
             width: 170px;
             margin: -60vh 0px 230px 300px;
             padding: 20px 20px 20px 50px;
-        }
+        } */
+
         .success-stories h1{
             font-size: 45px;
             line-height: 50px; /* 163.636% */
