@@ -18,9 +18,325 @@
         <hr class="logo-sep">
         <ul class="navbar-categories">
             <li><img src="./assets/img/fe_app-menu.png" alt=""></li>
-            <li>Browse Categories</li>
+            <li class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn">Browse Categories</button>
+                <div class="dropdown-content" id="dropdownItems">
+                  
+                    <div class="dropdown-link">
+                        <div class="dropdown-single-link" onmouseover="showMenu(1)" onmouseout="hideMenu(1)">
+                            <a href="#">
+                                <span>Engineering</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(2)" onmouseout="hideMenu(2)">
+                            <a href="#">
+                                <span>Management</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(3)" onmouseout="hideMenu(3)">
+                            <a href="#">
+                                <span>Medicine</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(4)" onmouseout="hideMenu(4)">
+                            <a href="#">
+                                <span>Law</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(5)" onmouseout="hideMenu(5)">
+                            <a href="#">
+                                <span>Design</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(6)" onmouseout="hideMenu(6)">
+                            <a href="#">
+                                <span>Mass Media</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(7)" onmouseout="hideMenu(7)">
+                            <a href="#">
+                                <span>Finance</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(8)" onmouseout="hideMenu(8)">
+                            <a href="#">
+                                <span>Pharmacy</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="dropdown-single-link" onmouseover="showMenu(9)" onmouseout="hideMenu(9)">
+                            <a href="#" style="border: none;">
+                                <span>Study Abroad</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                    <path d="M1 1L7 7.64444L1 14" stroke="#263238" stroke-opacity="0.5" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="menu" id="menu1" onmouseover="showMenu(1)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu2" onmouseover="showMenu(2)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu3" onmouseover="showMenu(3)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu4" onmouseover="showMenu(4)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu5" onmouseover="showMenu(5)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu6" onmouseover="showMenu(6)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu7" onmouseover="showMenu(7)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu8" onmouseover="showMenu(8)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu9" onmouseover="showMenu(9)">
+                        <div class="menu-column">
+                          <h1>COLLEGES</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column">
+                          <h1>COACHING</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                        <div class="menu-column menu-column-3">
+                          <h1>EXAMS</h1>
+                          <a href="#">IITs offering B.Tech</a>
+                          <a href="#">Colleges in Mumbai</a>
+                          <a href="#">Colleges in Bangalore</a>
+                          <a href="#">Colleges accepting JEE Mains</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </li>
         </ul>
 
+<!-- JS for the dorpdown menu -->
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownItems");
+                dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
+            }
+
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.style.display === "block") {
+                    openDropdown.style.display = "none";
+                    }
+                }
+                }
+            }
+
+            function showMenu(num) {
+                document.getElementById("menu"+num).style.display = "flex";
+            }
+    
+            function hideMenu(num) {
+                document.getElementById("menu"+num).style.display = "none";
+            }
+          </script>
 
   <input type="text" class="navbar-search fas" placeholder="🔍 Search for colleges, courses, exams and more...">
 
