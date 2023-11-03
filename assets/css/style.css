@@ -310,12 +310,17 @@
 
     .landing-text{
         z-index: 100000;
-        margin: auto 0 ;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 1px solid red; */
+        /* margin: auto 0 ; */
     }
 
 .landing-text h1{
     color: #000;
-    text-align: center;
     font-family: Inter;
     font-size: 95px;
     font-style: italic;
@@ -333,8 +338,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    padding: 0 10%;
-    border: 1px solid red;
+    padding: 0 5%;
 }
 
 /* .landing-page-form-resent-searches{
@@ -440,7 +444,7 @@
 .success-stories{
     width: 268px;
     height: fit-content;
-    /* margin: -45vh 0px 200px 200px; */
+    margin: 20% 0 0 0;
     padding: 30px;
     border-radius: 15px;
     background: #B822FF;
