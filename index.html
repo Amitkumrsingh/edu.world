@@ -311,18 +311,26 @@
             </li>
         </ul>
 
-
+<!-- JS for the dorpdown menu -->
         <script>
-            const dropdowns = document.querySelectorAll('.dropdown');
-            dropdowns.forEach(dropdown => {
-              dropdown.addEventListener('mouseover', function() {
-                this.querySelector('.dropdown-content').style.display = 'flex';
-              });
-              dropdown.addEventListener('mouseout', function() {
-                this.querySelector('.dropdown-content').style.display = 'none';
-              });
-            });
-    
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownItems");
+                dropdown.style.display = dropdown.style.display === "flex" ? "none" : "flex";
+            }
+
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.style.display === "block") {
+                    openDropdown.style.display = "none";
+                    }
+                }
+                }
+            }
+
             function showMenu(num) {
                 document.getElementById("menu"+num).style.display = "flex";
             }
