@@ -315,8 +315,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        /* border: 1px solid red; */
-        /* margin: auto 0 ; */
+        position: absolute;
+        right: 6%;
     }
 
 .landing-text h1{
@@ -328,6 +328,7 @@
     line-height: 90px; /* 94.737% */
     letter-spacing: -1.9px;
     z-index: 100;
+    width: 50%;
 }
 
 .landing-page{
@@ -341,15 +342,15 @@
     padding: 0 5%;
 }
 
-/* .landing-page-form-resent-searches{
+.landing-page-form-resent-searches{
     display: flex;
     flex-direction: column;
     margin-top: 20%;
-    border: 1px solid red;
-} */
+}
 
 
 .landing-page-form{
+    /* float: left; */
     min-height: 269px;
     min-width: 293px;
     border-radius: 15px;
@@ -359,7 +360,6 @@
     padding: 20px;
     flex-shrink: 0;
     justify-content: center;
-    /* margin: 30% 30% 0 0; */
 }
 
 .landing-page-form select{
@@ -442,9 +442,9 @@
 
 
 .success-stories{
-    width: 268px;
-    height: fit-content;
-    margin: 20% 0 0 0;
+    /* width: 268px; */
+    /* height: 200px; */
+    margin: 10% 0 0 0;
     padding: 30px;
     border-radius: 15px;
     background: #B822FF;
@@ -1616,6 +1616,7 @@ letter-spacing: -0.72px;
         margin: 13% 0% 0% 23%;
     } */
 
+
 .panel {
         width: 1047px;
 }
@@ -1630,9 +1631,13 @@ letter-spacing: -0.72px;
         margin: 14% 0% 0% 24%;
     } */
 
-.panel {
-        width: 1047px;
-}
+    .panel {
+            width: 1047px;
+    }
+
+    .landing-page {
+        padding: 0 3%;
+    }
 }
 
  @media (max-width: 1281px) {
@@ -1721,10 +1726,6 @@ letter-spacing: -0.72px;
 
         /* landing starts */
 
-        /* .landing-text{
-            margin: 15% 0% 0% 30%;
-        } */
-
         .landing-text h1{
             font-size: 55px;
             line-height: 60px; /* 94.737% */
@@ -1750,6 +1751,10 @@ letter-spacing: -0.72px;
             padding: 3px 7px;
         }
 
+        .landing-page {
+            padding: 0 13%;
+        }
+
         /* .success-stories{
             margin: 30% 0 0 20%;
         } */
@@ -1758,15 +1763,12 @@ letter-spacing: -0.72px;
             font-size: 45px;
             line-height: 50px; /* 163.636% */
             text-align: left;
-
         }
 
         .success-stories p{
             text-align: left;
             font-size: 20px;
-
         }
-
         /* landing ends */
 }
 
