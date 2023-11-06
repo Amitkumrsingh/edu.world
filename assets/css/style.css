@@ -3271,10 +3271,10 @@ text-transform: lowercase;
     }
 
     .success-stories {
-        padding: 0 30px 0 30px;
+        padding: 10px 10px 10px 30px;
         position: relative;
-        top: 39.2%;
-        left: 12.3%;
+        top: 51.2%;
+        left: 14.3%;
     }
 
     .success-stories h1{
@@ -3286,7 +3286,7 @@ text-transform: lowercase;
     }
 
     .landing-text {
-        width: 50%;
+        width: 45%;
         text-wrap: wrap;
     }
 
@@ -3304,8 +3304,8 @@ text-transform: lowercase;
 
     .landing-page-form-resent-serches{
         position: relative;
-        top: 30%;
-        right: 7%;
+        top: 28%;
+        right: 11.5%;
     }
 }
 
