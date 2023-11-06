@@ -485,6 +485,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dream-colleges-text h1{
@@ -675,13 +676,13 @@
 /* Top 10 colleges starts */
 
 .top-colleges{
-    padding:100px 60px;
-
+    padding:100px 10px;
 }
 
 .top-colleges-sort{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-colleges-sort h1{
@@ -697,7 +698,6 @@
 
 .top-colleges-select{
     gap: 20px;
-
 }
 
 .top-colleges-select select{
@@ -721,19 +721,17 @@
 .small-cards{
     display: flex;
     flex-shrink: 0;
-    border-radius: 10px;
     border: 1px solid #F0F0F0;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 5px 0px;
+    /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25); */
     align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
 .card-number{
     width: 66px;
     flex-shrink: 0;
-    padding: 10px;
-
-
+    /* padding: 10px; */
 }
 
 .card-number h1{
@@ -747,11 +745,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-
-}
-
-.iit-img{
-    padding: 20px 10px 20px 20px;
 }
 
 .iit-img img{
@@ -763,10 +756,6 @@
     justify-content: center;
 }
 
-.iit-name{
-     padding: 20px 10px 20px 20px;
-
-}
 .iit-name h2{
     color: #263238;
     font-family: Inter;
@@ -778,17 +767,13 @@
 
 
 .card-sep{
-    margin: 20px 0px 0px 0px;
+    /* margin: 20px 0px 0px 0px; */
     width: 0px;
     height: 72px;
     background: rgba(38, 50, 56, 0.20);
     color: #26323833;
 }
 
-
-.entrance{
-     padding: 20px 10px 20px 20px;
-}
 
 .entrance h2{
     color: #263238;
@@ -806,13 +791,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
-
-.deadline{
-     padding: 20px 10px 20px 20px;
-}
 .deadline h2{
     color: #263238;
     font-family: Inter;
@@ -832,7 +812,7 @@
     }
 
     .prev-cutoff{
-         padding: 20px 10px 20px 20px;
+         /* padding: 20px 10px 20px 20px; */
     }
 
     .prev-cutoff h2{
@@ -858,18 +838,20 @@
     .apply{
         display: flex;
         flex-direction: column;
-         padding: 20px 10px 20px 20px;
+         /* padding: 20px 10px 20px 20px; */
     }
 
     .apply-now{
-        border-radius: 5px;
+        /* border-radius: 5px; */
         background: rgba(38, 50, 56, 0.50);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
         color: #26323880;
         border: none;
-        margin: 5px 0px;
+        margin: 5px 0px; 
         padding: 5px 0px;
+        width: 100%;
     }
+
     .apply-now a{
         color: #FFF;
         text-align: center;
@@ -882,12 +864,13 @@
     }
 
     .download-brochure{
-        border-radius: 5px;
+        /* border-radius: 5px; */
         border: 1px solid rgba(38, 50, 56, 0.50);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
         color: #26323880;
-        margin: 5px 0px;
+        margin: 5px 0px; 
         padding: 5px;
+        width: 100%;
     }
 
     .download-brochure a{
@@ -899,7 +882,10 @@
         font-weight: 500;
         line-height: normal;
         text-decoration: none;
+    }
 
+    .apply, .prev-cutoff, .deadline, .entrance, .iit-img, .iit-name, .card-number {
+        padding: 10px;
     }
 
 
@@ -934,17 +920,17 @@
 
 /*   step towards your dream start */
 .steps-towards-cards{
-     display: flex;
+    display: flex;
     flex-direction: column;
     padding: 50px 20px;
     margin: 50px 0px;
     border: 3px solid #B822FF;
+    justify-content: space-between;
 }
 
 
 .steps-towards{
     display: flex;
-
 }
 
 
@@ -960,8 +946,8 @@
 }
 
 .steps-card{
-    width: 269.673px;
-    height: 132.933px;
+    flex-grow: 1;
+    flex-basis: 0;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -974,7 +960,6 @@
 }
 
 .steps-card h1{
-
     color: #000;
     font-family: Inter;
     font-size: 32px;
@@ -982,6 +967,7 @@
     font-weight: 700;
     line-height: 60px; /* 187.5% */
     letter-spacing: -0.64px;
+    /* border: 1px solid red; */
 }
 
 
@@ -991,8 +977,8 @@
     color: #000000;
     background: #000;
     width: 223.739px;
-
 }
+
 
 .steps-card p{
     color: #263238;
@@ -1001,12 +987,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 26px; /* 130% */
-    color: #263238;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 26px; /* 130% */
+    width: 223.739px;
 }
 
 
@@ -1019,6 +1000,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-exams{
@@ -1228,6 +1210,7 @@
     margin-left: 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .discounts-text h1{
@@ -1350,13 +1333,13 @@
 }
 
 .wish-to-card{
-
     padding: 00px 20px 20px 30px;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
+
 .wish-to-card select{
     margin: 10px 0px;
     padding: 10px 20px;
@@ -1571,7 +1554,17 @@ letter-spacing: -0.72px;
     line-height: 30px; /* 187.5% */
 }
 
+.fourth-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
 .fourth-block h1{
+    flex-grow: 1;
+    flex-basis: 0;
     color: #FFF;
     font-family: Inter;
     font-size: 32px;
@@ -1582,13 +1575,13 @@ letter-spacing: -0.72px;
 }
 
 .fourth-block button{
+    width: 100%;
     margin-top: 20px;
     border-radius: 10px;
     border: 1px solid #F0F0F0;
     background: #263238;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 0px 15px;
-
 }
 
 .fourth-block a{
@@ -1707,7 +1700,7 @@ ul.breadcrumb li a:hover {
         border-radius: 5px;
         border: 1px solid #A2BE37;
         padding: 5px;
-         margin-left: 20px;
+        margin-left: 20px;
         display: inline;
         color: #263238;
         font-family: Inter;
@@ -1715,6 +1708,7 @@ ul.breadcrumb li a:hover {
         font-style: normal;
         font-weight: 400;
         line-height: 22px; /* 220% */
+        font-weight: bold;    
     }
     .top-management-colleges-text p svg{
         width: 8px;
