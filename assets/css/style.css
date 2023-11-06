@@ -311,37 +311,33 @@
 .landing-page{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     height: 90vh;
     padding: 0 5%;
-    /* border: 1px solid green; */
 }
 
 .success-stories{
-    margin: 10% 0 0 0;
-    padding: 10px 20px 10px 40px;
+    padding: 10px 10px 10px 30px;
     border-radius: 15px;
     background: #B822FF;
-    width: auto;
-    height: 144px;
     position: relative;
-    top: 37%;
-    left: 9.2%;
+    top: 52%;
+    left: 7.4%;
+    width: 253px;
+    height: 144px;
 }
 
 .success-stories h1{
     color: #FFF;
+    text-align: center;
     font-family: Inter;
     font-size: 55px;
     font-style: italic;
     font-weight: 900;
-    line-height: 90px; 
+    line-height: 90px; /* 163.636% */
     letter-spacing: -1.1px;
-    margin: 0;
 }
 
 .success-stories p{
-    margin: 0;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -352,42 +348,36 @@
 } 
 
 .landing-text{
-    height: 80%;
-    display: flex;
-    justify-content: center;
     align-self: center;
-    align-items: center;
-    /* text-align: center; */
-    right: 6%;
-    /* border: 1px solid red; */
     color: #000;
     text-align: center;
+    z-index: 100;
+    width: 60%;
 }
 
 .landing-text h1{
     color: #000;
+    text-align: center;
     font-family: Inter;
-    font-size: 95px;
+    font-size: 75px;
     font-style: italic;
     font-weight: 900;
-    line-height: 90px; 
+    line-height: 90px; /* 94.737% */
     letter-spacing: -1.9px;
-    z-index: 100;
-    width: 90%;
-    text-align: center;
 }
 
 .landing-page-form-resent-serches{
     height: fit-content;
-    /* border: 1px solid black; */
     position: relative;
-    top: 26%;
-    right: 4%;
+    top: 7%;
+    right: 3%;
 }
 
 .landing-page-form{
-    min-height: 269px;
-    min-width: 293px;
+    /* min-height: 269px;
+    min-width: 293px; */
+    min-height: 200px;
+    min-width: 150px;
     border-radius: 15px;
     background: #0090FA;
     display:flex ;
@@ -398,7 +388,7 @@
 }
 
 .landing-page-form select{
-    min-width:226px;
+    min-width:150px;
     padding: 12px;
     margin: 10px;
     border-radius: 2px;
@@ -3322,19 +3312,12 @@ text-transform: lowercase;
         top: 30%;
         right: 7%;
     }
-
-
 }
 
 @media (min-width: 1681px) {
     body{
         padding: 0px 10%;
     }
-
-
-    /* .panel {
-            width: 1047px;
-    } */
 }
 
 @media (max-width: 1281px) {
@@ -3423,7 +3406,7 @@ text-transform: lowercase;
 
         /* landing starts */
 
-        .success-stories {
+        /* .success-stories {
             padding: 0 30px 0 30px;
             position: relative;
             top: 39.2%;
@@ -3459,6 +3442,6 @@ text-transform: lowercase;
             position: relative;
             top: 30%;
             right: 7%;
-        }
+        } */
         /* landing ends */
 }
