@@ -664,7 +664,7 @@
 /* Top 10 colleges starts */
 
 .top-colleges{
-    padding:100px 10px;
+    padding: 50px 10px;
 }
 
 .top-colleges-sort{
@@ -911,7 +911,7 @@
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
-    margin: 50px 0px;
+    margin: 0px 0px;
     border: 3px solid #B822FF;
     justify-content: space-between;
 }
@@ -989,12 +989,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 0px;
+    padding: 20px 30px;
 }
 
-.top-exams{
-    padding: 20px 20px 20px 40px;
-    margin-left: 0px;
-}
 .top-exams-btns h1{
    color: #000;
     font-family: Inter;
@@ -1010,8 +1008,8 @@
         border: 1px solid #263238;
         background: #263238;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-        padding: 5px 50px;
-    }
+        padding: 5px;
+}
 
     .view-exams-button a{
         color: #FFF;
@@ -1024,9 +1022,6 @@
         text-decoration: none;
     }
 
-    .view-exam{
-        margin: 30px 60px;
-    }
 .top-exams-scrollable-container {
     display: flex;
     overflow: hidden;
@@ -1103,7 +1098,7 @@
 /* Wish to study start  */
 .wish-to-study{
     background: rgba(217, 217, 217, 0.20);
-    padding: 60px 0px 60px 60px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -1186,7 +1181,7 @@
 
 /* discount start */
 .discounts{
-    margin: 60px 0 60px 0;;
+    margin: 0 0 50px 0;
     display: flex;
     flex-direction: column;
 }
@@ -1202,7 +1197,7 @@
 }
 
 .discounts-text h1{
-  color: #000;
+    color: #000;
     font-family: Inter;
     font-size: 36px;
     font-style: italic;
@@ -1212,15 +1207,12 @@
 }
 
 .view-discount{
-    margin-top: 20px;
     border: none;
-
 }
 
 .view-discount a{
-    border-radius: 5px;
-    padding: 5px 50px;
-     color: #FFF;
+    color: #FFF;
+    padding: 5px 35px;
     text-align: center;
     font-family: Inter;
     font-size: 16px;
@@ -1232,7 +1224,7 @@
     background: #263238;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
     text-decoration: none;
-    }
+}
 
     .discounts-scrollable-container {
     display: flex;
@@ -1315,7 +1307,7 @@
 /*  Study abroad start */
 
 .study-abroad{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
