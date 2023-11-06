@@ -308,16 +308,61 @@
 
 /* landing starts */
 
-    .landing-text{
-        z-index: 100000;
-        height: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        position: absolute;
-        right: 6%;
-    }
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 90vh;
+    padding: 0 5%;
+    /* border: 1px solid green; */
+}
+
+.success-stories{
+    margin: 10% 0 0 0;
+    padding: 10px 20px 10px 40px;
+    border-radius: 15px;
+    background: #B822FF;
+    width: auto;
+    height: 144px;
+    position: relative;
+    top: 37%;
+    left: 9.2%;
+}
+
+.success-stories h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 90px; 
+    letter-spacing: -1.1px;
+    margin: 0;
+}
+
+.success-stories p{
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-wrap: nowrap;
+} 
+
+.landing-text{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    /* text-align: center; */
+    right: 6%;
+    /* border: 1px solid red; */
+    color: #000;
+    text-align: center;
+}
 
 .landing-text h1{
     color: #000;
@@ -325,32 +370,22 @@
     font-size: 95px;
     font-style: italic;
     font-weight: 900;
-    line-height: 90px; /* 94.737% */
+    line-height: 90px; 
     letter-spacing: -1.9px;
     z-index: 100;
-    width: 50%;
+    width: 90%;
+    text-align: center;
 }
 
-.landing-page{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('https://img.freepik.com/premium-photo/bloodhounddog_830154-297.jpg?w=2000');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-    padding: 0 5%;
+.landing-page-form-resent-serches{
+    height: fit-content;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 26%;
+    right: 4%;
 }
-
-.landing-page-form-resent-searches{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20%;
-}
-
 
 .landing-page-form{
-    /* float: left; */
     min-height: 269px;
     min-width: 293px;
     border-radius: 15px;
@@ -409,7 +444,7 @@
     margin-top: 20px;
 }
 
-.searches {
+.searches{
     display: flex;
     column-gap: 5px;
 }
@@ -428,7 +463,6 @@
 }
 
 .searches button{
-    /* width: 107px; */
     height: 25px;
     flex-shrink: 0;
     color: rgba(38, 50, 56, 0.50);
@@ -440,37 +474,6 @@
     line-height: normal;
 }
 
-
-.success-stories{
-    /* width: 268px; */
-    /* height: 200px; */
-    margin: 10% 0 0 0;
-    padding: 30px;
-    border-radius: 15px;
-    background: #B822FF;
-}
-
-.success-stories h1{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 55px;
-    font-style: italic;
-    font-weight: 900;
-    line-height: 90px; /* 163.636% */
-    letter-spacing: -1.1px;
-}
-
-.success-stories p{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.48px;
-}
 
 /* landing ends */
 
@@ -1342,26 +1345,25 @@
 
 .wish-to-card select{
     margin: 10px 0px;
-    padding: 10px 20px;
     width: 224px;
     height: 35px;
     flex-shrink: 0;
     border-radius: 2px;
-border: 1px solid #263238;
-background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid #263238;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 .wish-to-card h1{
     color: #000;
-font-family: Inter;
-font-size: 36px;
-font-style: italic;
-font-weight: 900;
-line-height: 60px; /* 166.667% */
-letter-spacing: -0.72px;
-
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 60px; /* 166.667% */
+    letter-spacing: -0.72px;
 }
+
 .domain-and-location{
     display: flex;
     gap: 10px;
@@ -1369,7 +1371,6 @@ letter-spacing: -0.72px;
 .study-abroad-scrollable-container {
     display: flex;
     overflow: hidden;
-
 }
 .study-abroad-scrollable-container:hover .study-abroad-cards {
     transform: translateX(-314px);
@@ -1391,8 +1392,8 @@ letter-spacing: -0.72px;
     display: flex;
     flex-direction: column;
     text-align: center;
- justify-content: center;
- align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .study-abroad-img{
@@ -1406,7 +1407,6 @@ letter-spacing: -0.72px;
     border-radius: 10px;
     background: rgba(213, 252, 68, 0.20);
     width: 217px;
-
 }
 
 
@@ -1684,8 +1684,6 @@ ul.breadcrumb li a:hover {
         justify-content: center;
         text-align: center;
         align-items: center;
-
-
     }
     .top-management-colleges-text h1{
         color: #0090FA;
@@ -1791,7 +1789,24 @@ ul.breadcrumb li a:hover {
         line-height: normal;
         text-decoration: none;
       }
+
+      .domain, .location{
+        color: #263238;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
+      .domain, .location option{
+        font-family: Inter;
+        padding: 5px;
+      }
+
 /* TOP 10 MANAGEMENT COLLEGES ends */
+
+
 
 /* Main grid starts */
 
@@ -3261,35 +3276,65 @@ text-transform: lowercase;
 /* Media Query */
 
 @media (min-width: 1441px) {
-body{
-    padding: 0px  3%;
-}
-/* .landing-text{
-        margin: 13% 0% 0% 23%;
-    } */
+    body{
+        padding: 0px  3%;
+    }
 
-
-.panel {
-        width: 1047px;
-}
-}
-
-@media (min-width: 1681px) {
-body{
-    padding: 0px 10%;
-}
-
-/* .landing-text{
-        margin: 14% 0% 0% 24%;
-    } */
 
     .panel {
             width: 1047px;
     }
 
-    .landing-page {
-        padding: 0 3%;
+    .success-stories {
+        padding: 0 30px 0 30px;
+        position: relative;
+        top: 39.2%;
+        left: 12.3%;
     }
+
+    .success-stories h1{
+        font-size: 50px;
+    }
+
+    .success-stories p{
+        font-size: 20px;
+    }
+
+    .landing-text {
+        width: 50%;
+        text-wrap: wrap;
+    }
+
+    .landing-text h1{
+        font-size: 70px;
+        line-height: 60px; 
+        font-weight: 900;
+        letter-spacing: -1.5px;
+    }
+
+    .landing-page-form {
+        min-height: 200px;
+        width: 200px;
+    }
+
+    .landing-page-form-resent-serches{
+        position: relative;
+        top: 30%;
+        right: 7%;
+    }
+
+
+}
+
+@media (min-width: 1681px) {
+    body{
+        padding: 0px 10%;
+    }
+
+
+    /* .panel {
+            width: 1047px;
+    } */
 }
 
 @media (max-width: 1281px) {
@@ -3335,7 +3380,6 @@ body{
             font-family: 'Font Awesome';
         }
 
-
         .navbar-get-counsellor {
             font-size: 14px;
             padding: 7px 15px;
@@ -3379,48 +3423,42 @@ body{
 
         /* landing starts */
 
+        .success-stories {
+            padding: 0 30px 0 30px;
+            position: relative;
+            top: 39.2%;
+            left: 12.3%;
+        }
+
+        .success-stories h1{
+            font-size: 45px;
+        }
+
+        .success-stories p{
+            font-size: 20px;
+        }
+
+        .landing-text {
+            width: 50%;
+            text-wrap: wrap;
+        }
+
         .landing-text h1{
-            font-size: 55px;
-            line-height: 60px; /* 94.737% */
+            font-size: 65px;
+            line-height: 60px; 
             font-weight: 900;
             letter-spacing: -1.5px;
         }
 
         .landing-page-form {
             min-height: 200px;
-            min-width: 200px;
-            /* margin: 60% 80% 0 0; */
+            width: 200px;
         }
 
-        .landing-page-form select{
-            min-width:150px;
-            padding: 7px;
-            margin: 7px;
-        }
-
-
-        .landing-page-form button{
-            margin: 13px 30px;
-            padding: 3px 7px;
-        }
-
-        .landing-page {
-            padding: 0 13%;
-        }
-
-        /* .success-stories{
-            margin: 30% 0 0 20%;
-        } */
-
-        .success-stories h1{
-            font-size: 45px;
-            line-height: 50px; /* 163.636% */
-            text-align: left;
-        }
-
-        .success-stories p{
-            text-align: left;
-            font-size: 20px;
+        .landing-page-form-resent-serches{
+            position: relative;
+            top: 30%;
+            right: 7%;
         }
         /* landing ends */
 }
