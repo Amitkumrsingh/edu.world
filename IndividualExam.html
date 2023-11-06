@@ -18,10 +18,10 @@
         </div>
 
         <hr class="logo-sep">
-        <ul class="navbar-categories">
+        <ul class="navbar-categories" onclick="toggleDropdown()">
             <li><img src="./assets/img/fe_app-menu.png" alt=""></li>
             <li class="dropdown">
-                <button onclick="toggleDropdown()" class="dropbtn">Browse Categories</button>
+                <button class="dropbtn">Browse Categories</button>
                 <div class="dropdown-content" id="dropdownItems">
                   
                     <div class="dropdown-link">
@@ -338,6 +338,7 @@
             function hideMenu(num) {
                 document.getElementById("menu"+num).style.display = "none";
             }
+
           </script>
 
 
@@ -366,6 +367,7 @@
         </div>
 
     </div>
+
 <hr class="collegelisting-hr">
     <!-- breadcrumb ends -->
 
@@ -377,19 +379,18 @@
                 <path d="M4.41641 1L2.58359 3.76161L1.5 2.52411L1 3.09554L2.66641 5L5 1.57143L4.41641 1Z" fill="#263238"/>
                 </svg>Verified Content</p>
             </div>
+        </div>
 
 
+    <div class="apply-download-btns">
+        <div class="apply-btn">
+                <button><a href="#">Apply Now</a></button>
+        </div>
+        <div class="download-btn">
+                <button><span><img src="./assets/img/Vector1.png" alt=""><a href="#">Download Brochure</a></span></button>
 
         </div>
-          <div class="apply-download-btns">
-                <div class="apply-btn">
-                     <button><a href="#">Apply Now</a></button>
-                </div>
-                <div class="download-btn">
-                      <button><span><img src="./assets/img/Vector1.png" alt=""><a href="#">Download Brochure</a></span></button>
-
-                </div>
-            </div>
+    </div>
 
     <!-- TOP 10 MANAGEMENT COLLEGES ends -->
 

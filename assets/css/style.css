@@ -54,7 +54,7 @@
             list-style: none;
             margin: 0;
             padding: 0;
-
+            cursor: pointer;
         }
 
         .navbar-categories li {
@@ -1602,175 +1602,7 @@ letter-spacing: -0.72px;
     letter-spacing: -0.4px;
     text-decoration: none;
 }
-
-
-
  /*  footer ends  */
-
-
- @media (min-width: 1441px) {
-   body{
-    padding: 0px  3%;
-  }
-   /* .landing-text{
-        margin: 13% 0% 0% 23%;
-    } */
-
-
-.panel {
-        width: 1047px;
-}
- }
-
- @media (min-width: 1681px) {
-   body{
-    padding: 0px 10%;
-  }
-
-   /* .landing-text{
-        margin: 14% 0% 0% 24%;
-    } */
-
-    .panel {
-            width: 1047px;
-    }
-
-    .landing-page {
-        padding: 0 3%;
-    }
-}
-
- @media (max-width: 1281px) {
- .college-coaching-main-grid{
-        display: flex;
-        gap: 10px !important;;
-        margin: 5px!important;
-
-    }
-
-    .navbar {
-            padding: 7px 15px;
-        }
-
-
-        .navbar-logo h1{
-            font-size: 20px;
-            line-height: 24px;
-            width: 112px;
-            height: 20px;
-            top: 15px;
-            left: 25px;
-            right:10px
-        }
-
-        .navbar-categories{
-            min-width: fit-content;
-        }
-
-
-        .navbar-categories li {
-            font-size: 14px;
-            line-height: 15px;
-        }
-
-
-        .navbar-search {
-            margin: 0 10px;
-            margin-left: 20%;
-            top: 17px;
-            left: 572px;
-            line-height: 15px;
-            padding: 7px;
-        }
-
-        .navbar-get-counsellor {
-            font-size: 14px;
-            padding: 7px 15px;
-        }
-
-        .navbar-icons {
-            gap: 10px;
-            margin: 0px 10px;
-        }
-
-        .navbar-icons a {
-            font-size: 15px;
-        }
-        .icon-link {
-            padding: 4px 2px 0px 8px;
-            width: 24px;
-            height: 28px;
-
-            }
-            .icon-link i {
-            font-size: 20px;
-
-            }
-
-        .navbar-login {
-            font-size: 14px;
-            padding: 7px 15px;
-            line-height: 15px;
-        }
-
-        .panel {
-        width: 841px;
-        }
-        .courses-buttons button{
-            margin:15px 5px 20px 0px !important;
-        }
-        .college-listing-main-grid{
-            gap: 10px !important;
-            margin: 10px !important;
-        }
-
-        /* landing starts */
-
-        .landing-text h1{
-            font-size: 55px;
-            line-height: 60px; /* 94.737% */
-            font-weight: 900;
-            letter-spacing: -1.5px;
-        }
-
-        .landing-page-form {
-            min-height: 200px;
-            min-width: 200px;
-            /* margin: 60% 80% 0 0; */
-        }
-
-        .landing-page-form select{
-            min-width:150px;
-            padding: 7px;
-            margin: 7px;
-        }
-
-
-        .landing-page-form button{
-            margin: 13px 30px;
-            padding: 3px 7px;
-        }
-
-        .landing-page {
-            padding: 0 13%;
-        }
-
-        /* .success-stories{
-            margin: 30% 0 0 20%;
-        } */
-
-        .success-stories h1{
-            font-size: 45px;
-            line-height: 50px; /* 163.636% */
-            text-align: left;
-        }
-
-        .success-stories p{
-            text-align: left;
-            font-size: 20px;
-        }
-        /* landing ends */
-}
 
 
 
@@ -1778,9 +1610,10 @@ letter-spacing: -0.72px;
 
 /* Breadcrumb part start */
 .breadcrumb-part {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4px;
 }
 
 
@@ -1849,7 +1682,9 @@ ul.breadcrumb li a:hover {
     .top-management-colleges{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-bottom: 30px;
+        margin-left: 18px;
     }
     .top-management-colleges-text{
         display: flex;
@@ -1915,7 +1750,7 @@ ul.breadcrumb li a:hover {
 
     .apply-download-btns{
         display: flex;
-        margin: 0px 0px 30px 40px;
+        margin: 0px 0px 30px 20px;
     }
 
     .apply-btn button{
@@ -2509,9 +2344,9 @@ text-transform: lowercase;
 
  .college-coaching-main-grid{
         display: flex;
-        gap:20px;
-        margin: 20px 0 0 100px;
-
+        gap: 20px;
+        margin: 20px 19px 0 19px;
+        justify-content: space-between;
     }
 
 
@@ -2638,11 +2473,10 @@ text-transform: lowercase;
 }
 /* Coaching ends */
 
-
-
-
-
-
+.Coaching-name-with-ranking{
+    position: sticky;
+    top: 5px;
+}
 
 /* individual College Listing start*/
 
@@ -2652,7 +2486,7 @@ text-transform: lowercase;
             }
 
         .panel {
-             width: 831px;
+            width: 831px;
             max-height: fit-content!important;
             flex-shrink: 0;
             margin-bottom: 20px;
@@ -3159,7 +2993,6 @@ text-transform: lowercase;
             font-style: normal;
             font-weight: 600;
             line-height: 15px; /* 150% */
-
         }
 
         .video-card p{
@@ -3429,3 +3262,171 @@ text-transform: lowercase;
             color: #000;
             text-decoration-line: underline;
         }
+
+
+/* Media Query */
+
+@media (min-width: 1441px) {
+body{
+    padding: 0px  3%;
+}
+/* .landing-text{
+        margin: 13% 0% 0% 23%;
+    } */
+
+
+.panel {
+        width: 1047px;
+}
+}
+
+@media (min-width: 1681px) {
+body{
+    padding: 0px 10%;
+}
+
+/* .landing-text{
+        margin: 14% 0% 0% 24%;
+    } */
+
+    .panel {
+            width: 1047px;
+    }
+
+    .landing-page {
+        padding: 0 3%;
+    }
+}
+
+@media (max-width: 1281px) {
+.college-coaching-main-grid{
+        display: flex;
+        gap: 10px !important;;
+        margin: 5px!important;
+
+    }
+
+    .navbar {
+            padding: 7px 15px;
+        }
+
+
+        .navbar-logo h1{
+            font-size: 20px;
+            line-height: 24px;
+            width: 112px;
+            height: 20px;
+            top: 15px;
+            left: 25px;
+            right:10px
+        }
+
+        .navbar-categories{
+            min-width: fit-content;
+        }
+
+
+        .navbar-categories li {
+            font-size: 14px;
+            line-height: 15px;
+        }
+
+        .navbar-search {
+            margin: 0 10px;
+            margin-left: 20%;
+            top: 17px;
+            left: 572px;
+            line-height: 15px;
+            padding: 7px;
+            font-family: 'Font Awesome';
+        }
+
+
+        .navbar-get-counsellor {
+            font-size: 14px;
+            padding: 7px 15px;
+        }
+
+        .navbar-icons {
+            gap: 10px;
+            margin: 0px 10px;
+        }
+
+        .navbar-icons a {
+            font-size: 15px;
+        }
+        .icon-link {
+            padding: 4px 2px 0px 8px;
+            width: 24px;
+            height: 28px;
+
+            }
+            .icon-link i {
+            font-size: 20px;
+
+            }
+
+        .navbar-login {
+            font-size: 14px;
+            padding: 7px 15px;
+            line-height: 15px;
+        }
+
+        .panel {
+        width: 841px;
+        }
+        .courses-buttons button{
+            margin:15px 5px 20px 0px !important;
+        }
+        .college-listing-main-grid{
+            gap: 10px !important;
+            margin: 10px !important;
+        }
+
+        /* landing starts */
+
+        .landing-text h1{
+            font-size: 55px;
+            line-height: 60px; /* 94.737% */
+            font-weight: 900;
+            letter-spacing: -1.5px;
+        }
+
+        .landing-page-form {
+            min-height: 200px;
+            min-width: 200px;
+            /* margin: 60% 80% 0 0; */
+        }
+
+        .landing-page-form select{
+            min-width:150px;
+            padding: 7px;
+            margin: 7px;
+        }
+
+
+        .landing-page-form button{
+            margin: 13px 30px;
+            padding: 3px 7px;
+        }
+
+        .landing-page {
+            padding: 0 13%;
+        }
+
+        /* .success-stories{
+            margin: 30% 0 0 20%;
+        } */
+
+        .success-stories h1{
+            font-size: 45px;
+            line-height: 50px; /* 163.636% */
+            text-align: left;
+        }
+
+        .success-stories p{
+            text-align: left;
+            font-size: 20px;
+        }
+        /* landing ends */
+}
