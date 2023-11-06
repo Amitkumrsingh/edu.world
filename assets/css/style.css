@@ -254,7 +254,7 @@
       .menu {
         display: none;
         min-width: 400px;
-        z-index: 10000000;
+        z-index: 100000;
         width: 659px;
         /* height: 100%; */
         border-radius: 0px 10px 10px 0px;
@@ -304,8 +304,6 @@
         background-color: #f1f1f1;
       }
 
-
-
 /* landing starts */
 
 .landing-page{
@@ -316,24 +314,23 @@
 }
 
 .success-stories{
-    padding: 10px 10px 10px 30px;
+    padding: 15px 10px 15px 30px;
     border-radius: 15px;
     background: #B822FF;
     position: relative;
-    top: 52%;
-    left: 7.4%;
-    width: 253px;
-    height: 144px;
+    top: 54%;
+    left: 10.4%;
+    height: fit-content;
 }
 
 .success-stories h1{
+    margin: 0;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 55px;
     font-style: italic;
     font-weight: 900;
-    line-height: 90px; /* 163.636% */
     letter-spacing: -1.1px;
 }
 
@@ -352,7 +349,7 @@
     color: #000;
     text-align: center;
     z-index: 100;
-    width: 60%;
+    width: 48%;
 }
 
 .landing-text h1{
@@ -369,15 +366,13 @@
 .landing-page-form-resent-serches{
     height: fit-content;
     position: relative;
-    top: 7%;
-    right: 3%;
+    top: 8%;
+    right: 7%;
 }
 
 .landing-page-form{
-    /* min-height: 269px;
-    min-width: 293px; */
     min-height: 200px;
-    min-width: 150px;
+    width: 260px;
     border-radius: 15px;
     background: #0090FA;
     display:flex ;
@@ -3321,11 +3316,10 @@ text-transform: lowercase;
 }
 
 @media (max-width: 1281px) {
-.college-coaching-main-grid{
-        display: flex;
-        gap: 10px !important;;
-        margin: 5px!important;
-
+    .college-coaching-main-grid{
+            display: flex;
+            gap: 10px !important;
+            margin: 5px!important;
     }
 
     .navbar {
@@ -3406,28 +3400,35 @@ text-transform: lowercase;
 
         /* landing starts */
 
-        /* .success-stories {
-            padding: 0 30px 0 30px;
+        .success-stories {
+            padding: 10px 19px 10px 20px;
             position: relative;
-            top: 39.2%;
-            left: 12.3%;
+            top: 52.5%;
+            left: 17.5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
         .success-stories h1{
-            font-size: 45px;
+            font-size: 40px;
+            text-align: left;
+            margin: 0;
         }
 
         .success-stories p{
-            font-size: 20px;
+            font-size: 16px;
+            text-align: left;
         }
 
         .landing-text {
-            width: 50%;
+            width: 40%;
             text-wrap: wrap;
         }
 
         .landing-text h1{
-            font-size: 65px;
+            font-size: 60px;
             line-height: 60px; 
             font-weight: 900;
             letter-spacing: -1.5px;
@@ -3440,8 +3441,8 @@ text-transform: lowercase;
 
         .landing-page-form-resent-serches{
             position: relative;
-            top: 30%;
-            right: 7%;
-        } */
+            top: 22%;
+            right: 14%;
+        }
         /* landing ends */
 }
